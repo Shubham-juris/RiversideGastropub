@@ -41,7 +41,7 @@ function ContactForm() {
                                 <p>See you soon!</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-success btn-lg rounded-0" data-bs-dismiss="modal" onClick="window.location.reload()">Close</button>
+                                <button type="button" class="btn btn-primary btn-lg rounded-0" data-bs-dismiss="modal" onClick="window.location.reload()">Close</button>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@ function ContactForm() {
                     <Form.Control className='rounded-0' as="textarea" name="comments" cols={20} rows={3} id="comments" value={comments} onChange={(event) => setComments(event.target.value)} />
                 </Form.Group>
 
-                <Button variant="success" type="submit" className='btn btn-lg rounded-0 mt-4' id="submit-btn">
+                <Button variant="primary" type="submit" className='btn btn-lg rounded-0 mt-4' id="submit-btn">
                     Submit
                 </Button>
             </Form>

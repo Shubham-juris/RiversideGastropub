@@ -13,8 +13,8 @@ function Header() {
                     <div className="row h-100">
                         <div className='col-xl-7 d-flex flex-column align-items-center align-items-md-start justify-content-center mt-5'>
                             <h2 className='fw-bold fs-3 text-center text-md-start'>Welcome to</h2>
-                            <h1 className='text-capitalize fw-bold text-center text-md-start'>Calgary veg Indian restaurant </h1>
-                            <p className='mb-4 text-center text-md-start'>Welcome to Calgary veg in Calgary, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
+                            <h1 className='text-capitalize fw-bold text-center text-md-start'>River Side restaurant </h1>
+                            <p className='mb-4 text-center text-md-start'>Welcome to River Side veg in River Side, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
                             <div className='d-flex flex-column flex-sm-row'>
                                 <MenuBtn />
                                 <Link to='/contact'>
@@ -26,13 +26,13 @@ function Header() {
                     </div>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className='carousel-item2 vh-100'>
+            {/* <Carousel.Item className='carousel-item2 vh-100'>
                 <Carousel.Caption className='h-100 pb-0'>
                     <div className="row h-100">
                         <div className='col-xl-7 d-flex flex-column align-items-center align-items-md-start justify-content-center mt-5'>
                             <h2 className='fw-bold fs-3 text-center text-md-start'>Welcome to</h2>
-                            <h1 className='text-capitalize fw-bold text-center text-md-start'>Calgary veg indian restaurant </h1>
-                            <p className='mb-4 text-center text-md-start'>Welcome to Calgary veg in Calgary, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
+                            <h1 className='text-capitalize fw-bold text-center text-md-start'>River Side restaurant </h1>
+                            <p className='mb-4 text-center text-md-start'>Welcome to River Side veg in River Side, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
                             <div className='d-flex flex-column flex-sm-row'>
                                 <MenuBtn />
                                 <Link to='/contact'>
@@ -43,15 +43,15 @@ function Header() {
                         <div className='col-xl-5 d-none d-xl-block'></div>
                     </div>
                 </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item className='carousel-item3 vh-100'>
+            </Carousel.Item> */}
+            {/* <Carousel.Item className='carousel-item3 vh-100'>
                 
                 <Carousel.Caption className='h-100 pb-0'>
                     <div className="row h-100">
                         <div className='col-xl-7 d-flex flex-column align-items-center align-items-md-start justify-content-center mt-5'>
                             <h2 className='fw-bold fs-3 text-center text-md-start'>Welcome to</h2>
-                            <h1 className='text-capitalize fw-bold text-center text-md-start'>Calgary veg indian restaurant </h1>
-                            <p className='mb-4 text-center text-md-start'>Welcome to Calgary veg in calgary, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
+                            <h1 className='text-capitalize fw-bold text-center text-md-start'>riverside gastropub indian restaurant </h1>
+                            <p className='mb-4 text-center text-md-start'>Welcome to riverside gastropub in calgary, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
                             <div className='d-flex flex-column flex-sm-row'>
                                 <MenuBtn />
                                 <Link to='/contact'>
@@ -63,7 +63,7 @@ function Header() {
                     </div>
 
                 </Carousel.Caption>
-            </Carousel.Item>
+            </Carousel.Item> */}
         </Carousel>
     </header>
   )

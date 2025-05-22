@@ -116,7 +116,7 @@ class OldContactForm extends React.Component {
                                 and if will be any issue, we will contact you on your phone number ${this.state.phoneNumber}.</p>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-success btn-lg" data-bs-dismiss="modal" onClick="window.location.reload()">Close</button>
+                                <button type="button" class="btn btn-primary btn-lg" data-bs-dismiss="modal" onClick="window.location.reload()">Close</button>
                             </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@ class OldContactForm extends React.Component {
                         <Form.Control as="textarea" name="comments" cols={20} rows={3} id="comments" onChange={(event) => this.handleComments(event)} />
                     </Form.Group>
 
-                    <Button variant="success" type="submit" className='btn btn-lg mt-4' id="submit-btn">
+                    <Button variant="primary" type="submit" className='btn btn-lg mt-4' id="submit-btn">
                         Submit
                     </Button>
                 </Form>

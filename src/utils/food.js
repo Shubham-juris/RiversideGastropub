@@ -1,29 +1,29 @@
 const food = [
-    {
-        id: 1,
-        name: 'Paneer Butter Masala',
-        price: '13.99' 
-    },
-    {
-        id: 2,
-        name: 'Masala Dosa',
-        price: '10.50' 
-    },
-    {
-        id: 3,
-        name: 'Chole Bhature',
-        price: '11.25' 
-    },
-    {
-        id: 4,
-        name: 'Veg Biryani',
-        price: '12.75'
-    },
-    {
-        id: 5,
-        name: 'Aloo Paratha with Curd',
-        price: '9.99' 
-    }
+  {
+    id: 1,
+    name: 'Grilled Cheese & Tomato Soup',
+    price: '$12.99' // CAD
+  },
+  {
+    id: 2,
+    name: 'Bison Burger with Fries',
+    price: '$10.25' // CAD
+  },
+  {
+    id: 3,
+    name: 'Mac and Cheese',
+    price: '$11.00' // CAD
+  },
+  {
+    id: 4,
+    name: 'Roasted Root Vegetables',
+    price: '$9.75' // CAD
+  },
+  {
+    id: 5,
+    name: 'Lentil Shepherd’s Pie',
+    price: '$11.50' // CAD
+  }
 ];
 
 export default food;

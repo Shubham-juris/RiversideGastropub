@@ -1,22 +1,22 @@
 const dessert = [
-    {
-        id: 1,
-        name: 'Gulab Jamun',
-        description: 'deep-fried milk solids soaked in rose-flavored sugar syrup',
-        price: '5.99' // CAD
-    },
-    {
-        id: 2,
-        name: 'Rasmalai',
-        description: 'soft paneer balls soaked in sweet, saffron-infused milk',
-        price: '6.50' // CAD
-    },
-    {
-        id: 3,
-        name: 'Gajar Halwa',
-        description: 'grated carrots cooked in ghee with milk, sugar, and cardamom',
-        price: '6.75' // CAD
-    }
+  {
+    id: 1,
+    name: 'Butter Tart',
+    description: 'classic Canadian tart filled with buttery, sugary syrup and raisins',
+    price: '$5.99' // CAD
+  },
+  {
+    id: 2,
+    name: 'Nanaimo Bar',
+    description: 'no-bake layered dessert with crumb base, custard filling, and chocolate topping',
+    price: '$6.50' // CAD
+  },
+  {
+    id: 3,
+    name: 'Maple Pecan Pie',
+    description: 'rich pie made with maple syrup and toasted pecans in a flaky crust',
+    price: '$6.75' // CAD
+  }
 ];
 
 export default dessert;

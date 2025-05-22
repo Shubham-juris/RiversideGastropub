@@ -29,7 +29,7 @@ function Reviews() {
                         </CardBody>
                         <CardFooter className="d-flex align-items-center">
                             <img src={review.img} className="img-fluid rounded-circle mx-3 shadow" alt="" />
-                            <CardTitle className="text-success">{review.name}</CardTitle>
+                            <CardTitle className="text-primary">{review.name}</CardTitle>
                         </CardFooter>
                     </Card>
                 </motion.div>

@@ -2,7 +2,7 @@ import React from 'react';
 import './AboutUsSection.css';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import AboutSectionImg from '../../utils/images/about-section-img.jpg';
+import AboutSectionImg from '../../utils/images/aboutsection.avif';
 
 function AboutUsSection() {
   return (
@@ -23,7 +23,7 @@ function AboutUsSection() {
                 transition={{ duration: 1 }}
             >
                 <h2 className='text-uppercase fw-bold fs-1 mb-4 mb-lg-5'>About us</h2>
-                <p>Welcome to Calgary veg in Calgary, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
+                <p>Welcome to River Side veg in River Side, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
                 <p className='mb-4 mb-lg-5'>Our restaurant is situated at 5 minutes walk from train station and shopping center. The location is ideal for a perfect breakfast, a facny lunch or a nice dinner with your family or friends. We can't wait to serve you our delicious dishes!</p>
                 <Link to='/about'>
                     <button type='button' className='btn btn-dark btn-lg rounded-0 text-capitalize shadow'>More about us</button>

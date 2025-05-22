@@ -13,7 +13,7 @@ const reviews = [
     },
     {
         id: 2,
-        description: 'I ate at Calgary veg last week and I really enjoyed it.',
+        description: 'I ate at riverside gastropub last week and I really enjoyed it.',
         img: [Person2Img],
         name: 'Maria Cruz',
         initialMotion: '350px'

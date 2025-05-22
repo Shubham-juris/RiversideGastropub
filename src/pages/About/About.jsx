@@ -2,8 +2,7 @@ import React from 'react';
 import './About.css';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import AboutChef1Img from '../../utils/images/about-chef1-img.jpg';
-import ImageGallery from '../../components/ImageGallery/ImageGallery';
+import AboutChef1Img from '../../utils/images/aboutChef1.jpg';
 import Reviews from '../../components/Reviews/Reviews';
 
 function About() {
@@ -28,10 +27,10 @@ function About() {
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
           >
-            <p>Welcome to Calgary veg in Calgary, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
+            <p>Welcome to riverside gastropub in Calgary, the perfect experience for special people. Our fancy restaurant will bring your special moments to another level.</p>
             <p>Our restaurant is situated at 5 minutes walk from train station and shopping center. The location is ideal for a perfect breakfast, a facny lunch or a nice dinner with your family or friends. We can't wait to serve you our delicious dishes!</p>
             <Link to='/contact'>
-              <button type='button' className='btn btn-success btn-lg rounded-0 text-capitalize mt-3 shadow'>Contact us</button>
+              <button type='button' className='btn btn-primary btn-lg rounded-0 text-capitalize mt-3 shadow'>Contact us</button>
             </Link>
           </motion.div>
           <motion.div 
@@ -45,9 +44,7 @@ function About() {
         </div>
       </div>
 
-      <div className="bg-dark text-light py-1">
-        <ImageGallery />
-      </div>
+    
 
       <div className="my-5">
         <Reviews />

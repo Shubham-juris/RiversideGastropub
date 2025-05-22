@@ -2,7 +2,7 @@ import React from 'react';
 import './ContactSection.css';
 import { motion } from 'framer-motion';
 import ContactInfo from '../ContactInfo/ContactInfo';
-import ContactSectionImg from '../../utils/images/contact-section-img.jpg';
+import ContactSectionImg from '../../utils/images/contactsecimg.jpg';
 
 function ContactSection() {
   return (

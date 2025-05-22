@@ -1,20 +1,28 @@
-import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from "react";
 
 function Footer() {
-    const [newDate, setNewDate] = useState('');
-    useEffect(() => {
-        let todayDate = new Date();
-        let todayYear = todayDate.getFullYear();
-        setNewDate([todayYear])
-    }, []);
-
+ 
   return (
-    <footer className='bg-body-tertiary' id='footer'>
-        <p className='pt-3 m-0 text-center'>copyright &copy; Calgary veg, 2021-{newDate}</p>
-       
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+      <div class="container">
+        <p class="mb-2 mb-md-0">
+          &copy; <span id="year"></span> Riverside Gastropub. All rights reserved.
+        </p>
+        <div class="mt-2">
+          <a href="#" class="text-light text-decoration-none mx-2">
+            Privacy Policy
+          </a>
+          <a href="#" class="text-light text-decoration-none mx-2">
+            Terms of Service
+          </a>
+          <a href="#" class="text-light text-decoration-none mx-2">
+            Contact
+          </a>
+         
+        </div>
+      </div>
     </footer>
-  )
+  );
 }
 
 export default Footer;

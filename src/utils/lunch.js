@@ -1,22 +1,22 @@
 const lunch = [
-    {
-        id: 1,
-        name: 'Paneer Butter Masala with Naan',
-        description: 'cottage cheese cubes in rich tomato-butter gravy served with soft naan bread',
-        price: '13.99' 
-    },
-    {
-        id: 2,
-        name: 'Chole Bhature',
-        description: 'spiced chickpeas curry served with deep-fried fluffy bread',
-        price: '11.75' 
-    },
-    {
-        id: 3,
-        name: 'Vegetable Biryani with Raita',
-        description: 'fragrant basmati rice cooked with vegetables and aromatic spices, served with yogurt dip',
-        price: '12.50' 
-    }
+  {
+    id: 1,
+    name: 'Grilled Cheese Sandwich with Tomato Soup',
+    description: 'classic melted cheese sandwich served with a warm bowl of tomato soup',
+    price: '$13.99' // CAD
+  },
+  {
+    id: 2,
+    name: 'Veggie Poutine',
+    description: 'crispy fries topped with cheese curds and vegetarian gravy',
+    price: '$11.75' // CAD
+  },
+  {
+    id: 3,
+    name: 'Quinoa Salad Bowl',
+    description: 'nutritious quinoa mixed with roasted vegetables, feta cheese, and maple vinaigrette',
+    price: '$12.50' // CAD
+  }
 ];
 
 export default lunch;
