@@ -78,9 +78,9 @@ function Footer() {
 
           {/* Links Section */}
           <div className="col-md-4 text-md-end">
-            <a href="#" className="text-light text-decoration-none mx-2 small">Privacy Policy</a>
-            <a href="#" className="text-light text-decoration-none mx-2 small">Terms</a>
-            <a href="#" className="text-light text-decoration-none mx-2 small">Contact</a>
+            <a href="#!" className="text-light text-decoration-none mx-2 small">Privacy Policy</a>
+            <a href="#!" className="text-light text-decoration-none mx-2 small">Terms</a>
+            <a href="#!" className="text-light text-decoration-none mx-2 small">Contact</a>
           </div>
 
         </div>
